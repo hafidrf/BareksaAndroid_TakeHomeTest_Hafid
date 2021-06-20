@@ -1,11 +1,11 @@
-package com.hafid.bareksaandroid_takehometest.ui.main.adapter
+package com.hafidrf.bareksaandroid_takehometest.ui.main.adapter
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.hafid.bareksaandroid_takehometest.ui.dana_kelolaan.DanaKelolaanFragment
-import com.hafid.bareksaandroid_takehometest.ui.imbal_hasil.ImbalHasilFragment
-import com.me.bareksaandroid_takehometest.R
+import com.hafidrf.bareksaandroid_takehometest.ui.dana_kelolaan.DanaKelolaanFragment
+import com.hafidrf.bareksaandroid_takehometest.ui.imbal_hasil.ImbalHasilFragment
+import com.hafidrf.bareksaandroid_takehometest.R
 
 class MainPagerAdapter(private val activity: FragmentActivity): FragmentStateAdapter(activity) {
 

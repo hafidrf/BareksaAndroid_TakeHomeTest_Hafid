@@ -12,7 +12,7 @@ import com.hafidrf.bareksaandroid_takehometest.repo.MainRepository
 import com.hafidrf.bareksaandroid_takehometest.ui.imbal_hasil.ImbalHasilViewModel
 import com.hafidrf.bareksaandroid_takehometest.ui.main.MainViewModel
 
-class ApplicationController: Application() {
+class App: Application() {
 
     override fun onCreate() {
         super.onCreate()
@@ -21,7 +21,7 @@ class ApplicationController: Application() {
             // Koin Android logger
             androidLogger()
             //inject Android context
-            androidContext(this@ApplicationController)
+            androidContext(this@App)
             // use modules
             modules(listModules())
         }

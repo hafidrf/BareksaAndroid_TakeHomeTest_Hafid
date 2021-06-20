@@ -1,8 +1,8 @@
-package com.hafid.bareksaandroid_takehometest.ui.imbal_hasil
+package com.hafidrf.bareksaandroid_takehometest.ui.imbal_hasil
 
 import androidx.lifecycle.ViewModel
-import com.hafid.bareksaandroid_takehometest.repo.IMainRepository
-import com.hafid.bareksaandroid_takehometest.repo.model.DataContent
+import com.hafidrf.bareksaandroid_takehometest.repo.IMainRepository
+import com.hafidrf.bareksaandroid_takehometest.repo.model.DataContent
 
 class ImbalHasilViewModel(mainRepo: IMainRepository): ViewModel() {
 

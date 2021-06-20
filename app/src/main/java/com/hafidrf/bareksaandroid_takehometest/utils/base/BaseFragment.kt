@@ -1,4 +1,4 @@
-package com.github.ahmadriza.movie.utils.base
+package com.hafidrf.bareksaandroid_takehometest.utils.base
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,8 +8,8 @@ import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import com.github.ahmadriza.movie.R
-import com.github.ahmadriza.movie.utils.data.autoCleared
+import com.hafidrf.bareksaandroid_takehometest.R
+import com.hafidrf.bareksaandroid_takehometest.utils.data.autoCleared
 
 /**
  * Created on 11/27/20.

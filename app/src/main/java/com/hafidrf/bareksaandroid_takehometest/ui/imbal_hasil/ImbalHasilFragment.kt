@@ -1,4 +1,4 @@
-package com.hafid.bareksaandroid_takehometest.ui.imbal_hasil
+package com.hafidrf.bareksaandroid_takehometest.ui.imbal_hasil
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,10 +9,10 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.tabs.TabLayoutMediator
 import kotlinx.android.synthetic.main.fragment_imbal_hasil.*
 import org.koin.android.viewmodel.ext.android.viewModel
-import com.me.bareksaandroid_takehometest.R
-import com.hafid.bareksaandroid_takehometest.repo.model.DataContent
-import com.hafid.bareksaandroid_takehometest.ui.imbal_hasil.adapter.ImbalHasilPagerAdapter
-import com.hafid.bareksaandroid_takehometest.ui.imbal_hasil.adapter.ImbalHasilRVAdapter
+import com.hafidrf.bareksaandroid_takehometest.R
+import com.hafidrf.bareksaandroid_takehometest.repo.model.DataContent
+import com.hafidrf.bareksaandroid_takehometest.ui.imbal_hasil.adapter.ImbalHasilPagerAdapter
+import com.hafidrf.bareksaandroid_takehometest.ui.imbal_hasil.adapter.ImbalHasilRVAdapter
 
 class ImbalHasilFragment : Fragment() {
     private val imbalHasilVM: ImbalHasilViewModel by viewModel()

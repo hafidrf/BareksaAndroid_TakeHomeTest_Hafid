@@ -1,9 +1,9 @@
-package com.hafid.bareksaandroid_takehometest.ui.imbal_hasil.adapter
+package com.hafidrf.bareksaandroid_takehometest.ui.imbal_hasil.adapter
 
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.me.bareksaandroid_takehometest.R
-import com.hafid.bareksaandroid_takehometest.ui.imbal_hasil.ChartTemplateFragment
+import com.hafidrf.bareksaandroid_takehometest.R
+import com.hafidrf.bareksaandroid_takehometest.ui.imbal_hasil.ChartTemplateFragment
 
 class ImbalHasilPagerAdapter(private val fragment: Fragment): FragmentStateAdapter(fragment) {
 

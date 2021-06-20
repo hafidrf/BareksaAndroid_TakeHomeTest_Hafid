@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grey">#F5F5F5</color>
+    <color name="main_green">#4B8B26</color>
+    <color name="bt_green">#82C341</color>
+    <color name="soft_green">#E2EBDD</color>
+    <color name="soft_purple">#E0DBEB</color>
+    <color name="soft_blue">#E0E8EE</color>
+</resources>

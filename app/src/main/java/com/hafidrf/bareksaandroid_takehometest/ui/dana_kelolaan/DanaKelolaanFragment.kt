@@ -1,11 +1,11 @@
-package com.hafid.bareksaandroid_takehometest.ui.dana_kelolaan
+package com.hafidrf.bareksaandroid_takehometest.ui.dana_kelolaan
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.me.bareksaandroid_takehometest.R
+import com.hafidrf.bareksaandroid_takehometest.R
 
 class DanaKelolaanFragment : Fragment() {
 

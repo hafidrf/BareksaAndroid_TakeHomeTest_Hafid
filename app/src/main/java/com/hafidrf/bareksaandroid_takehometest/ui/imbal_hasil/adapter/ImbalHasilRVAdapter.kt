@@ -1,14 +1,14 @@
-package com.hafid.bareksaandroid_takehometest.ui.imbal_hasil.adapter
+package com.hafidrf.bareksaandroid_takehometest.ui.imbal_hasil.adapter
 
 import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
-import com.me.bareksaandroid_takehometest.BR
-import com.me.bareksaandroid_takehometest.R
-import com.me.bareksaandroid_takehometest.databinding.DataContentLayoutBinding
-import com.hafid.bareksaandroid_takehometest.ui.imbal_hasil.adapter.ImbalHasilRVAdapter.MainVH
-import com.hafid.bareksaandroid_takehometest.repo.model.DataContent
+import com.hafidrf.bareksaandroid_takehometest.BR
+import com.hafidrf.bareksaandroid_takehometest.R
+import com.hafidrf.bareksaandroid_takehometest.databinding.DataContentLayoutBinding
+import com.hafidrf.bareksaandroid_takehometest.ui.imbal_hasil.adapter.ImbalHasilRVAdapter.MainVH
+import com.hafidrf.bareksaandroid_takehometest.repo.model.DataContent
 
 class ImbalHasilRVAdapter : RecyclerView.Adapter<MainVH>() {
     private var data: List<DataContent> = ArrayList()

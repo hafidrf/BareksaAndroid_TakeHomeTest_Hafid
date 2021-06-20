@@ -1,12 +1,12 @@
-package com.hafid.bareksaandroid_takehometest.ui.main
+package com.hafidrf.bareksaandroid_takehometest.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.google.android.material.tabs.TabLayoutMediator
 import kotlinx.android.synthetic.main.activity_main.*
 import org.koin.android.viewmodel.ext.android.viewModel
-import com.me.bareksaandroid_takehometest.R
-import com.hafid.bareksaandroid_takehometest.ui.main.adapter.MainPagerAdapter
+import com.hafidrf.bareksaandroid_takehometest.R
+import com.hafidrf.bareksaandroid_takehometest.ui.main.adapter.MainPagerAdapter
 
 class MainActivity : AppCompatActivity() {
     private val mainVM: MainViewModel by viewModel()

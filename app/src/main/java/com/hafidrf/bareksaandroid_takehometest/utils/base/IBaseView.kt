@@ -1,4 +1,4 @@
-package com.github.ahmadriza.movie.utils.base
+package com.hafidrf.bareksaandroid_takehometest.utils.base
 
 import androidx.annotation.LayoutRes
 

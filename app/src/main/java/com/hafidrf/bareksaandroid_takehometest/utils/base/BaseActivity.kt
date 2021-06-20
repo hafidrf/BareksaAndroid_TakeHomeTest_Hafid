@@ -22,4 +22,10 @@ abstract class BaseActivity<T : ViewDataBinding> : AppCompatActivity(), IBaseVie
         binding = DataBindingUtil.setContentView(this, getLayoutResource())
         initViews()
         initObservers()
-        initData(
+        initData()
+    }
+
+
+
+
+}

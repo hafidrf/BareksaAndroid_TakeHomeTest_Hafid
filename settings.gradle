@@ -1,0 +1,2 @@
+rootProject.name = "BareksaAndroid_TakeHomeTest_Hafid"
+include ':app'

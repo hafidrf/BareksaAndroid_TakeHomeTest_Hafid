@@ -1,4 +1,4 @@
-package com.hafid.bareksaandroid_takehometest.repo.model
+package com.hafidrf.bareksaandroid_takehometest.repo.model
 
 data class DataContent (
     val title: String,
